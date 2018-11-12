@@ -38,53 +38,6 @@ function post_multi_habr($mtime,$useragentArray,$proxyArray,$proxyPass,$array_mu
 		$array_acc = explode('|%|',$acc);
 
 		
-		
-		
-// nika8_93@mail.ru
-// Вероника Лучкова
-// Вероника
-// Лучкова
-// 20
-// женский
-// Россия, Дальневосточный ФО, Сахалинская обл.
-// 12
-// 9
-// 1993
-// rrajnetqbujijy@bk.ru
-// QscrIttersITTeR
-// sokolovaleksandr
-// 820794
-// balansfar
-// qps.ru/jVlXY
-// Стань-Бриллиантом.рф
-
-		// получим переменные для дальнейшего использования
-		$mra_mail      = $array_acc[0]; // [0] => suntan_nov@mail.ru
-		$nickname      = $array_acc[1]; // [1] => (-: Sunt@n :-)
-		$name	       = $array_acc[2]; // [2] => Татьяна
-		$surname       = $array_acc[3]; // [3] => Шуркалова
-		$age		   = $array_acc[4]; // [4] => 25
-		$sex		   = $array_acc[5]; // [4] => женский
-		$geo		   = $array_acc[6]; // [4] => Россия, Сибирский ФО, Новосибирская обл., Новосибирск
-		$date_bd	   = $array_acc[7]; // [4] => 1
-		$month_bd	   = $array_acc[8]; // [4] => 6
-		$year_bd	   = $array_acc[9]; // [4] => 1988
-
-		$jc_password   = $array_acc[11]; // [4] => rENemeurAiS
-		$jc_domain     = $array_acc[12]; // [5] => olegzhuravlev
-		$jc_group_id   = $array_acc[13]; // [6] => 734720
-		$jc_group_name = $array_acc[14]; // [7] => cherepahazhirtrest
-		$jc_link_after = "http://" . $array_acc[15]; // [8] => goo.gl/2oR19o
-		$jc_referer    = "http://" . $array_acc[16]; // [9] => sieger.justclick.ru	
-		
-		
-		// получим переменные для дальнейшего использования
-		// $mra_mail      = $array_acc[0]; // [0] => alsoysha@mail.ru
-		// $mra_name      = $array_acc[1]; // [1] => Алсу  измайлова
-		// $mra_age       = $array_acc[2]; // [2] => 18
-		// $jc_mail       = $array_acc[3]; // [3] => 291qavahnov@list.ru
-		
-		
 		// КОСЯК!!!! ПРОВЕРКА КРИВАЯ, ПРОБЕЛ ВСЕГДА НЕ НУЛЛ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		
 		$mra_name = $name . " " . $surname;
